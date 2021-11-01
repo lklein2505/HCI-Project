@@ -26,31 +26,31 @@ const Header = () => {
                         alt="Design logo"
                     />
                     <nav className="inline-flex justify-between list-none w-max">
-                        <li className="w-36 py-4 font-bold text-2xl text-center text-white bg-purple-900">
+                        <li className="cursor-pointer w-36 py-4 font-bold text-2xl text-center text-white bg-hci-lila">
                             Home
                         </li>
-                        <li className="w-36 py-4 font-normal text-2xl text-center text-purple-900 hover:text-white hover:bg-purple-900">
+                        <li className="cursor-pointer w-36 py-4 font-normal text-2xl text-center text-hci-lila hover:text-white hover:bg-hci-lila">
                             About Us
                         </li>
-                        <li className="w-36 py-4 font-normal text-2xl text-center text-purple-900 hover:text-white hover:bg-purple-900">
+                        <li className="cursor-pointer w-36 py-4 font-normal text-2xl text-center text-hci-lila hover:text-white hover:bg-hci-lila">
                             Showcase
                         </li>
-                        <li className="w-36 py-4 font-normal text-2xl text-center text-purple-900 hover:text-white hover:bg-purple-900">
+                        <li className="cursor-pointer w-36 py-4 font-normal text-2xl text-center text-hci-lila hover:text-white hover:bg-hci-lila">
                             Blog
                         </li>
-                        <li className="w-36 py-4 font-normal text-2xl text-center text-purple-900 hover:text-white hover:bg-purple-900">
+                        <li className="cursor-pointer w-36 py-4 font-normal text-2xl text-center text-hci-lila hover:text-white hover:bg-hci-lila">
                             Contact
                         </li>
-                        <li className="w-36 py-4 font-normal text-2xl text-center text-purple-900 hover:text-white hover:bg-purple-900">
+                        <li className="cursor-pointer w-36 py-4 font-normal text-2xl text-center text-hci-lila hover:text-white hover:bg-hci-lila">
                             Sign In
                         </li>
                     </nav>
                 </section>
                 <section className="mt-14">
-                    <h1 className="h-20 m-0 mb-1 font-bold text-7xl text-purple-800">
+                    <h1 className="h-20 m-0 mb-1 font-bold text-7xl text-hci-lila">
                         Design Matters
                     </h1>
-                    <h3 className="h-14 m-0 font-normal text-5xl text-purple-600">
+                    <h3 className="h-14 m-0 font-normal text-5xl text-hci-lila opacity-70">
                         Entrust us with your digital appearance
                     </h3>
                 </section>
