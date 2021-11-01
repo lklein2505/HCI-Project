@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import LogoImg from '../../assets/logo.png';
 import HeroImg from '../../assets/hero.png';
+import Navbar from '../../components/navbar/navbar';
 
 const Header = () => {
     return (
@@ -25,26 +26,7 @@ const Header = () => {
                         height={150}
                         alt="Design logo"
                     />
-                    <nav className="inline-flex justify-between list-none w-max">
-                        <li className="cursor-pointer w-36 py-4 font-bold text-2xl text-center text-white bg-hci-lila">
-                            Home
-                        </li>
-                        <li className="cursor-pointer w-36 py-4 font-normal text-2xl text-center text-hci-lila hover:text-white hover:bg-hci-lila">
-                            About Us
-                        </li>
-                        <li className="cursor-pointer w-36 py-4 font-normal text-2xl text-center text-hci-lila hover:text-white hover:bg-hci-lila">
-                            Showcase
-                        </li>
-                        <li className="cursor-pointer w-36 py-4 font-normal text-2xl text-center text-hci-lila hover:text-white hover:bg-hci-lila">
-                            Blog
-                        </li>
-                        <li className="cursor-pointer w-36 py-4 font-normal text-2xl text-center text-hci-lila hover:text-white hover:bg-hci-lila">
-                            Contact
-                        </li>
-                        <li className="cursor-pointer w-36 py-4 font-normal text-2xl text-center text-hci-lila hover:text-white hover:bg-hci-lila">
-                            Sign In
-                        </li>
-                    </nav>
+                    <Navbar selected="Home" />
                 </section>
                 <section className="mt-14">
                     <h1 className="h-20 m-0 mb-1 font-bold text-7xl text-hci-lila">
