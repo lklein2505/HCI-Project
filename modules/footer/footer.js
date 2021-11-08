@@ -4,7 +4,7 @@ import LogoImg from '../../assets/logo.png';
 
 const Footer = () => {
     return (
-        <section className="py-12 bg-hci-lila-dark text-hci-lila-light">
+        <section className="py-12 bg-hci-lila-dark text-hci-lila-light hidden sm:block">
             <main className="max-w-4xl flex flex-col mx-auto">
                 <div className="flex items-start justify-between">
                     <div>
