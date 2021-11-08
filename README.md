@@ -1,5 +1,21 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Plan za danas
+
+### Demo: cijela stranica s Tailwindom
+
+Gotov kod za Desktop verziju stranice možete naći u branchu `desktop-site`.
+
+### Demo: mobilna verzija stranice s Tailwindom
+
+Gotov kod za Moblinu verziju strarnice možete naći u branchu `module-mobile`
+
+### State:
+Materjale od prošle godine za state možete naći na linku ispod:
+https://github.com/kula124/HCi_2020_Fresh/tree/project-4--state-and-multipage
+
+Gotov kod za state dio vježbe je u barnchu `useState`
+
 ## Getting Started
 
 First, run the development server:
